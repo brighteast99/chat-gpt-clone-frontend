@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.8.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "nuxt": "^3.6.5",
+    "nuxt-chatgpt": "^0.2.1",
+    "prettier": "^3.0.2",
+    "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "@pinia/nuxt": "^0.4.11",
+    "@vueuse/core": "^10.3.0",
+    "pinia": "^2.1.6",
+    "sass-loader": "^13.3.2",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vuetify": "^3.3.14"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
